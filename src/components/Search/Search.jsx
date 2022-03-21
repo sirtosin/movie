@@ -16,7 +16,7 @@ const Search = () => {
     };
     useEffect(() => {
         dispatch(fetchAsyncMovies(term));
-    }, [dispatch, term])
+    }, [dispatch])
 
     return (
         <div className='search'>

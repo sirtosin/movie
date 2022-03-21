@@ -14,7 +14,7 @@ console.log("movies-now ",movies)
       <div className="movie-list">
       
 
-        {movies.Search.map((movie, index) => (
+        {movies.Search?.map((movie, index) => (
           <MovieCard key={index} data={movie} />
           
        ) )}
