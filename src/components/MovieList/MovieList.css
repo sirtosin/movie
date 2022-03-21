@@ -43,3 +43,12 @@
     font-weight: 400;
     margin-bottom: 10px;
   }
+
+  @media screen and (max-width: 768px) {
+    .movie-list {
+      grid-template-columns: auto ;
+      margin: 0;
+    }
+  }
+    
+  }
