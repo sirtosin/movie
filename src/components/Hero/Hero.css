@@ -15,6 +15,13 @@
 @media screen and (max-width: 600px) {
     .hero{
         height: 257px;
+        width: 100%;
+    }
+    .h2{
+        margin: 0 1em;
+        top: 2em;
+        font-size: 40px !important;
+        
     }
 }
     

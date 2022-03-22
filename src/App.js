@@ -5,7 +5,7 @@ import Hero from "./components/Hero/Hero";
 import MovieList from "./components/MovieList/MovieList";
 import Search from "./components/Search/Search";
 import { fetchAsyncMovies} from './features/movies/movieSlice';
-
+import './App.css';
 
 function App() {
     const dispatch = useDispatch()
