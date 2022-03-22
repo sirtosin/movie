@@ -13,6 +13,9 @@ const Search = () => {
         if (term === "") return alert("Please enter search term!");
         dispatch(fetchAsyncMovies(term));
         // setTerm("");
+        if (e.key === 'Enter') {
+            console.log('do validate');
+        }
     };
     useEffect(() => {
         dispatch(fetchAsyncMovies(term));
@@ -23,11 +26,8 @@ const Search = () => {
             <Input placeholder='search movie'
                 onChange={(e) => setTerm(e.target.value)}
                 value={term}
-                on
             />
-            <Button colorScheme='blue' onClick={submitHandler}>Button</Button>
-
-            
+            <Button colorScheme='blue' onClick={submitHandler}>search</Button>
         </div>
     )
 }
